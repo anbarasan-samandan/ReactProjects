@@ -1,4 +1,4 @@
-# Starter Kit for [Building Applications in React and Redux](http://www.pluralsight.com/author/cory-house) on Pluralsight
+# A small application to demonstrate the usage of React-Redux usage, using mock API (json-server) and testing using JEST, Enzyme
 
 ## Get Started
 
