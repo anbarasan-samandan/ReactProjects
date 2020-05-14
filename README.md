@@ -1,4 +1,4 @@
-# A small application to demonstrate the usage of React-Redux usage, using mock API and testing using JEST
+# A small application to demonstrate the usage of React-Redux usage, using mock API (json-server) and testing using JEST, Enzyme
 
 ## Get Started
 
