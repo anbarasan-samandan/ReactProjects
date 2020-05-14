@@ -41,8 +41,6 @@ export function ManageCoursePage({
   function handleChange(event) {
     const { name, value } = event.target;
 
-    console.log("Vaue from event: " + value);
-
     setCourse((prevCourse) => ({
       ...prevCourse,
       [name]: name === "authorId" ? parseInt(value, 10) : value,
@@ -50,10 +48,8 @@ export function ManageCoursePage({
   }
 
   function formIsValid() {
-    const { title, authorId, slug, category } = { course };
+    const { title, authorId, slug, category } = course;
     const errors = {};
-
-    console.log("Title: " + title);
 
     if (!title) errors.title = "Title is required.";
     if (!authorId) errors.author = "Author is required.";
@@ -71,6 +67,7 @@ export function ManageCoursePage({
     if (!formIsValid()) return;
 
     setSaving(true);
+    console.log("Course: " + course);
     saveCourse(course)
       .then(() => {
         toast.success("Course saved.");
