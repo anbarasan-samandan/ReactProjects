@@ -1,8 +1,26 @@
 # A small application to demonstrate the usage of React-Redux usage, using mock API (json-server) and testing using JEST, Enzyme
 
+## Screenshots
+
+**Home Screen**
+
+![](Images/Home_Screen.png)
+
+**Courses List**
+
+![](Images/Courses_List_Screen.png)
+
+**Courses List**
+
+![](Images/Add_Course_Screen.png)
+
+**About**
+
+![](Images/About_Screen.png)
+
 ## Get Started
 
-1. **Install [Node 8](https://nodejs.org)** or newer. Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows)(https://github.com/coryhouse/pluralsight-redux-starter/archive/master.zip)
+1. **Install [Node 8](https://nodejs.org)** or newer. 
 2. **Navigate to this project's root directory on the command line.**
 3. **Install Node Packages.** - `npm install`
 4. **Install [React developer tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) and [Redux Dev Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)** in Chrome.
