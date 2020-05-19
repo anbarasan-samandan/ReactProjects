@@ -3,19 +3,30 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const activeStyle = { color: "#f15B2A" };
+  const fontSizeStyle = {
+    fontSize: "24px",
+    color: "#FFC107",
+    fontSizeStyle: "bold",
+  };
+  const pipeStyle = {
+    fontSize: "24px",
+    fontSizeStyle: "bold",
+    color: "#FFBF00",
+  };
 
   return (
     <nav>
       <NavLink to="/" activeStyle={activeStyle} exact>
-        Home
-      </NavLink>{" "}
-      {" | "}
+        <span style={fontSizeStyle}> Home </span>
+      </NavLink>
+      {"  "}
+      <span style={pipeStyle}>{" | "}</span>
       <NavLink to="/courses" activeStyle={activeStyle}>
-        Courses
+        <span style={fontSizeStyle}> Courses </span>
       </NavLink>{" "}
-      {" | "}
+      <span style={pipeStyle}>{" | "}</span>
       <NavLink to="/about" activeStyle={activeStyle}>
-        About
+        <span style={fontSizeStyle}> About </span>
       </NavLink>
     </nav>
   );

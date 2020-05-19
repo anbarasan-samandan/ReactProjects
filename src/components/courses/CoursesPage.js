@@ -40,14 +40,14 @@ class CoursesPage extends React.Component {
     return (
       <>
         {this.state.redirectToAddCoursePage && <Redirect to="/course" />}
-        <h2>Courses</h2>
+        <h2 className="text-warning">Courses</h2>
         {this.props.loading ? (
           <Spinner />
         ) : (
           <>
             <button
               style={{ marginBottom: 20 }}
-              className="btn btn-primary add-course"
+              className="btn btn-warning add-course"
               onClick={() => this.setState({ redirectToAddCoursePage: true })}
             >
               Add Course

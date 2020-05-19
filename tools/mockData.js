@@ -42,7 +42,7 @@ const courses = [
     title: "How to become an outstanding solution architect",
     slug:
       "https://www.udemy.com/course/how-to-become-an-outstanding-solution-architect/",
-    authorId: 1,
+    authorId: 4,
     category: "Architecture",
   },
   {

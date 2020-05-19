@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const CourseList = ({ courses, onDeleteClick }) => (
-  <table className="table">
+  <table className="table table-light table-bordered table-hover">
     <thead>
       <tr>
         <th />
